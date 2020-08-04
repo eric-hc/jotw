@@ -1,0 +1,10 @@
+{
+  "meta": {
+    "title": "Jam of the Week",
+    "titleTemplate": "%s",
+    "description": "A page for jams",
+    "siteUrl": "https://foundation.stackrole.com",
+    "image": "/assets/stackrole.png"
+  },
+  "ga": "UA-XXXXXXXXX-X"
+}
