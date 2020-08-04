@@ -4,7 +4,7 @@
     "titleTemplate": "%s",
     "description": "A page for jams",
     "siteUrl": "https://jotw.netlify.app",
-    "image": "/assets/stackrole.png"
+    "image": "/assets/favicon.ico"
   },
   "ga": "UA-XXXXXXXXX-X"
 }
