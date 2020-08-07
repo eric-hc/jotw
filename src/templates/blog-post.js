@@ -52,7 +52,8 @@ const Post = ({ data, pageContext }) => {
         <header className="featured-banner">
           <section className="article-header">
             <h1>{frontmatter.title}</h1>
-            <time>{frontmatter.date}</time>
+            <h2>{frontmatter.author}</h2>
+            <time>Week of Friday {frontmatter.date}</time>
           </section>
           {Image ? (
             <Img 
@@ -91,6 +92,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         slug
         title
+        author
         description
         featuredImage {
           childImageSharp {
