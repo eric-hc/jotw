@@ -27,6 +27,7 @@ collections:
     fields: # The fields each document in this collection have
       - { label: 'Template', name: 'template', widget: 'hidden', default: 'blog-post'}
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1' }
+      - { label: 'Artist', name: 'artist', widget: 'string', tagname: 'h2' }
       - { label: 'Slug', name: 'slug', widget: 'string', hint: 'Start slug with /. Use only alphanumeric characters, - and _. Avoid spaces in any cases.'}
       - {
           label: 'Publish Date',
@@ -56,6 +57,7 @@ collections:
         - {label: "Template", name: "template", widget: "hidden", default: "index-page" }
         - {label: "Slug", name: "slug", widget: "hidden", default: "/" }
         - {label: "Title", name: "title", widget: "string"}
+        - {label: "Artist", name: "artist", widget: "string"}
         - {label: "Tagline", name: "tagline", widget: "string"}
         - {label: "Featured Image", name: "featuredImage", widget: "image"}
         - {label: "Body", name: "body", widget: "markdown"}
@@ -76,6 +78,7 @@ collections:
         - {label: "Template", name: "template", widget: "hidden", default: "about-page" }
         - {label: "Slug", name: "slug", widget: "hidden", default: "/about" }
         - {label: "Title", name: "title", widget: "string"}
+        - {label: "Artist", name: "artist", widget: "string"}
         - {label: "Body", name: "body", widget: "markdown"}
       - label: "Contact"
         name: "contact"
@@ -84,6 +87,7 @@ collections:
         - {label: "Template", name: "template", widget: "hidden", default: "contact-page" }
         - {label: "Slug", name: "slug", widget: "hidden", default: "/contact" }
         - {label: "Title", name: "title", widget: "string"}
+        - {label: "Artist", name: "artist", widget: "string"}
         - {label: "Body", name: "body", widget: "markdown"}
   - name: settings
     label: Settings
@@ -103,6 +107,11 @@ collections:
               - widget: string
                 name: titleTemplate
                 label: Title Template
+                default: "%s"
+                required: true
+              - widget: string
+                name: artistTemplate
+                label: Artist Template
                 default: "%s"
                 required: true
               - widget: string
