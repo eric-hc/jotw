@@ -1,9 +1,9 @@
 ---
 template: blog-post
-title: the last shadow puppets
-artist: aviation
-slug: /last-shadow-puppets
+title: aviation
+artist: the last shadow puppets
+slug: /aviation
 date: 2020-09-04 19:33
-description: the last shadow puppets
+description: the last shadow puppets aviation jam
 ---
 notes here
