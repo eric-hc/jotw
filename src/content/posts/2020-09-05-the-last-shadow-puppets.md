@@ -5,5 +5,6 @@ artist: the last shadow puppets
 slug: /aviation
 date: 2020-09-04 19:33
 description: the last shadow puppets aviation jam
+featuredImage: /assets/aviation.jpg
 ---
 notes here
