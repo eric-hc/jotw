@@ -5,7 +5,7 @@ artist: freddie mercury
 slug: /love-kills
 date: 2020-09-18 19:35
 description: freddie mercury love kills
-featuredImage: /assets/freddie.png"
+featuredImage: /assets/freddie.png
 ---
 
 # Hot Takes
