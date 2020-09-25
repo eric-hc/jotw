@@ -9,7 +9,7 @@ featuredImage: /assets/girl.jpg
 ---
 **Hot Takes**
 
-The GIRL album cover- the jacket looks itchy
+On the GIRL album cover- the jacket looks itchy
 
 It definitely is a song
 
