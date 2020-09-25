@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: A Song for Everything
+title: a song for everything
 artist: Maren Morris
 slug: /a-song-for-everything
 date: 2020-09-25 14:06
